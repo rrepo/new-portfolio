@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Nazuki Takahashi</title>
+    <script type="text/javascript">
+        const foo = true;
+        let bar = function() {};
+        if (foo) {
+            bar(1 + 5);
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="heading">
+                <img class="main_image" src="https://i.gyazo.com/3005ff04f42bf737524452875ea3a7a5.jpg" alt="Main Image">
+                <a class="logo-name" href="/">Takahashi Naduki's portfolio</a>
+            </div>
+        </header>
+
+        <nav id="gnav">
+            <ul>
+                <li><!-- <a href="#feature">FEATURE</a> --></li>
+                <li><a href="#profile">PROFILE</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                <li><a href="#dream">dream</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <section id="profile" class="section">
+            <div class="inner">
+                <div class="section-title-block">
+                    <h2 class="section-title">PROFILE</h2>
+                    <p class="section-desc"></p>
+                </div>
+                <div class="two-column-wrapper">
+                    <div class="two-column-image">
+                        <img src="https://i.gyazo.com/273b63cece6cf662a3e29def25dda1f1.jpg" alt="">
+                    </div>
+                    <div class="two-column-desc">
+                        <p class="text">
+                            はじめまして、高橋なづきと申します。2004年生まれの20歳です。もともとはロボット系のプログラミングをしていましたが、手軽にできるweb系のプログラミングでwebappを作りたいと思い、ruby,railsを習得し、今はexpressを勉強中です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="section">
+            <div class="inner">
+                <div class="section-title-block">
+                    <h2 class="section-title">WORKS</h2>
+                    <div class="section-desc">
+                        <p class="text">これまでの制作実績です。</p>
+                    </div>
+                </div>
+                <div class="card-wrapper my-gallery">
+                    <figure class="card">
+                        <a class="card-image" href="https://solfuw.herokuapp.com/" data-size="980x668" target="_blank">
+                            <p class="card-caption-title">solfuw</p>
+                            <img src="https://i.gyazo.com/4dbc4b907018b6c9e669a97adb4e2d67.png" alt="">
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">solfuwという不登校児向け掲示板サイトです。</p>
+                            <p class="card-caption-info">html/css/ruby/rails/mysql</p>
+                            <p class="card-caption-url"></p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="card">
+                        <a class="card-image" href="https://hanpencult.herokuapp.com/" data-size="980x668" target="_blank">
+                            <p class="card-caption-title">はんぺん教</p>
+                            <img src="https://i.gyazo.com/ea4b8d6f96daf7f4b483203645e1288a.png" alt="">
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">はんぺん教という架空の宗教サイトです。</p>
+                            <p class="card-caption-info">html/css/ruby/rails/mysql</p>
+                            <p class="card-caption-url"></p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="card">
+                        <a class="card-image" href="https://discordapp.com/oauth2/authorize?client_id=575278513456939009&scope=bot&permissions=0" data-size="980x668" target="_blank">
+                            <p class="card-caption-title">DisTopic</p>
+                            <img src="https://i.gyazo.com/1f3a30c88559d0d4e77e78d0a4e385a3.png" alt="" target="_blank">
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">DisTopicというdiscordで話題を振るbotです。</p>
+                            <p class="card-caption-info">discord.js / javascript</p>
+                            <p class="card-caption-url"></p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="card">
+                        <a class="card-image" href="https://github.com/rrepo/vue" data-size="980x668" target="_blank">
+                            <p class="card-caption-title">todoアプリ</p>
+                            <img src="https://i.imgur.com/b6bKY0M.jpeg" alt="" target="_blank">
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">vue.jsで制作したtodoアプリです。</p>
+                            <p class="card-caption-info">javascript / vue.js</p>
+                            <p class="card-caption-url"></p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="card">
+                        <a class="card-image" href="https://go-todoapp.herokuapp.com/" data-size="980x668" target="_blank">
+                            <p class="card-caption-title">todoアプリ</p>
+                            <img src="https://i.imgur.com/78yaJvW.jpg" alt="" target="_blank">
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">goで制作したtodoアプリです、メール認証機能までつけました。</p>
+                            <p class="card-caption-info">html / css / go</p>
+                            <p class="card-caption-url"></p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="card">
+                        <a class="card-image" href="https://www.udemy.com/course/go-fintech/" data-size="980x668" target="_blank">
+                            <p class="card-caption-title">システムトレーディングアプリ</p>
+                            <img src="https://i.imgur.com/NtV8f6p.jpg" alt="" target="_blank">
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">goで制作したビットコインのトレードアプリです。ボリンジャーバンドで取引しています。</p>
+                            <p class="card-caption-info">go / bitflyerapi</p>
+                            <p class="card-caption-url"></p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="card">
+                        <a class="card-image" href="https://rrepo.github.io/memap/" data-size="980x668" target="_blank">
+                            <p class="card-caption-title">地図上にメモをすることができるアプリ</p>
+                            <img src="https://i.imgur.com/iCwxQKA.png" alt="" target="_blank">
+                        </a>
+                        <figcaption class="card-caption">
+                            <p class="card-caption-title">javascriptとleafletという地図ライブラリで作成しました。</p>
+                            <p class="card-caption-info">leaflet / javascript</p>
+                            <p class="card-caption-url"></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="inner">
+                <div class="section-title-block">
+                    <h2 class="section-title">experience</h2>
+                    <div class="section-desc">
+                        <p class="text">これまでの経験です</p>
+                    </div>
+                </div>
+                <figure class="card">
+                    <a class="card-image" href="https://www.youtube.com/watch?v=GtDb3T_w64A" data-size="980x668" target="_blank">
+                        <p class="card-caption-title">Musa-Kos　～赤錆を超音波で黒錆に！～</p>
+                        <iframe data-size="980x668" src="https://www.youtube.com/embed/GtDb3T_w64A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                    <figcaption class="card-caption">
+                        <p class="card-caption-title">FIRST LEGO League 2017に出場した際のプロジェクトプレゼンテーションです</p>
+                        <p class="card-caption-info"></p>
+                        <p class="card-caption-url"></p>
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <a class="card-image" href="https://www.youtube.com/watch?v=vMNjCLhoYuo" data-size="980x668" target="_blank">
+                        <p class="card-caption-title">FLL Hydrodynamics 350points Musa-Kos</p>
+                        <iframe data-size="980x668" src="https://www.youtube.com/embed/vMNjCLhoYuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                    <figcaption class="card-caption">
+                        <p class="card-caption-title">FIRST LEGO League 2017に出場した際のロボット競技です</p>
+                        <p class="card-caption-info"></p>
+                        <p class="card-caption-url"></p>
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <a class="card-image" href="https://yn-au.co.jp/Your%20Notice%20As%20Usual/ohisama_murakami/" data-size="980x668" target="_blank">
+                        <p class="card-caption-title">ノーティス株式会社 放課後等デイサービスおひさま、障害者就労継続支援B型事業所クロスウォークでのボランティア活動</p>
+                        <img src="public/img/magesMVIMG_20200218_170936.jpg" alt="" target="_blank" data-size="980x668">
+                    </a>
+                    <figcaption class="card-caption">
+                        <p class="card-caption-title"></p>
+                        <img src="" alt="" target="_blank">
+                        <p class="card-caption-info">ノーティス株式会社 放課後等デイサービスおひさま、障害者就労継続支援B型事業所クロスウォークでのボランティア活動があります</p>
+                        <p class="card-caption-url"></p>
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <a class="card-image" href="" data-size="980x668" target="_blank">
+                        <p class="card-caption-title">ハーバードのコンピューターサイエンスの資格を持っています。</p>
+                        <img src="public/img/magesMVIMG_20200218_170936.jpg" alt="" target="_blank" data-size="980x668">
+                    </a>
+                    <figcaption class="card-caption">
+                        <p class="card-caption-title"></p>
+                        <img src="" alt="" target="_blank">
+                        <p class="card-caption-info"></p>
+                        <p class="card-caption-url"></p>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <section id="dream" class="section">
+            <div class="inner">
+                <div class="section-title-block">
+                    <h2 class="section-title">dream</h2>
+                    <div class="section-desc">
+                        <p class="text">私の夢です</p>
+                    </div>
+                </div>
+                <figure class="card">
+                    <a class="card-image" href="https://www.youtube.com/watch?v=MmJ79NV7Hn4&feature=youtu.be" data-size="980x668" target="_blank">
+                        <p class="card-caption-title">mindmapで会話する</p>
+                        <iframe data-size="980x668" src="https://www.youtube.com/embed/MmJ79NV7Hn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                    <figcaption class="card-caption">
+                        <p class="card-caption-title">全員が楽しく会話する空間を作りたいです</p>
+                        <p class="card-caption-url"></p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="skill" class="section">
+            <div class="inner">
+                <div class="section-title-block">
+                    <h2 class="section-title">SKILL</h2>
+                    <p class="section-desc">まだまだわからないことだらけですが頑張ります。</p>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="skill-icon">
+                            <!-- <img src="img/skill/icon_skill.png" alt=""> -->
+                        </div>
+                        <div class="skill-desc">
+                            <h3 class="skill-desc-title">HTML5/CSS3</h3>
+                            <div class="rating">
+                                <p class="rate rate4"></p>
+                            </div>
+                            <p class="text">上記のsolfuw，はんぺん教、このポートフォリオともにhtml/cssでフロントエンドを行っており、ある程度なら扱えます。</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="skill-icon">
+                            <!-- <img src="img/skill/icon_skill.png" alt=""> -->
+                        </div>
+                        <div class="skill-desc">
+                            <h3 class="skill-desc-title">node.js/express</h3>
+                            <div class="rating">
+                                <p class="rate rate3"></p>
+                            </div>
+                            <p class="text">現在勉強中でまだまだわからないことが多いですが、精進して参ります。</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="skill-icon">
+                            <!-- <img src="img/skill/icon_skill.png" alt=""> -->
+                        </div>
+                        <div class="skill-desc">
+                            <h3 class="skill-desc-title">ruby/rails</h3>
+                            <div class="rating">
+                                <p class="rate rate4"></p>
+                            </div>
+                            <p class="text">上記のはんぺん教、solfuwはruby/railsで作成しました。、ある程度なら扱えます。</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="skill-icon">
+                            <!-- <img src="img/skill/icon_skill.png" alt=""> -->
+                        </div>
+                        <div class="skill-desc">
+                            <h3 class="skill-desc-title">discord.js</h3>
+                            <div class="rating">
+                                <p class="rate rate4"></p>
+                            </div>
+                            <p class="text">上記のDisTopic、DisMentalはDiscord.jsで作成しました。</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="skill-icon">
+                            <!-- <img src="img/skill/icon_skill.png" alt=""> -->
+                        </div>
+                        <div class="skill-desc">
+                            <h3 class="skill-desc-title">vue.js</h3>
+                            <div class="rating">
+                                <p class="rate rate3"></p>
+                            </div>
+                            <p class="text">todoアプリを作った経験があります。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="inner">
+                <div class="section-title-block">
+                    <h2 class="section-title">CONTACT</h2>
+                    <p class="section-desc">お問合わせは下記のSNSのDMからご連絡をください。</p>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-list">
+                        <ul>
+                            <!-- <li>
+                                <a href="#"><img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">フォーム</span></a>
+                            </li> -->
+                            <li>
+                                <a href="https://twitter.com/NadukiTakahashi" target="_blank">
+                                    <!-- <img src="img/contact/icon_contact.png" alt=""> -->
+                                    <span class="contact-list-desc" href="https://twitter.com/NadukiTakahashi">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/po.re.71697" target="_blank">
+                                    <!-- <img src="img/contact/icon_contact.png" alt=""> -->
+                                    <span class="contact-list-desc">Facebook</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="inner">
+                <nav class="footer-link">
+                    <ul>
+                        <li><a href="#works">WORKS</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skill">SKILL</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <p class="copyright">Copyright©Takahashi Naduki. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <!-- Root element of PhotoSwipe. Must have class pswp. -->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <!-- Background of PhotoSwipe. It's a separate element as animating opacity is faster than rgba(). -->
+            <div class="pswp__bg"></div>
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
+                <!-- Container that holds slides. PhotoSwipe keeps only 3 of them in the DOM to save memory. -->
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <!-- Controls are self-explanatory. Order can be changed. -->
+                        <div class="pswp__counter"></div>
+                        <!-- <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button> -->
+                        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                    </div>
+                    <!-- <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button> -->
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- <script type="text/javascript" src="js/photoswipe/photoswipe.min.js"></script>
+        <script type="text/javascript" src="js/photoswipe/photoswipe-ui-default.js"></script>
+        <script type="text/javascript" src="js/photoswipe/photoswipe_setup.js"></script>
+        <script type="text/javascript" src="js/script.js"></script> -->
+    </div>
+</body>
+</html>
